@@ -96,7 +96,6 @@ services:
     ports: ["8888:8888"]
     networks: [mnet]
     depends_on:
-      - spark-master
       - catalog
       - storage
     environment:
